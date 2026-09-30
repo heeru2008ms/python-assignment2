@@ -1,0 +1,20 @@
+amount = int(input("Enter the amount: "))
+n500 = amount // 500
+amount %= 500
+n200 = amount // 200
+amount %= 200
+n100 = amount // 100
+amount %= 100
+n50 = amount // 50
+amount %= 50
+n20 = amount // 20
+amount %= 20
+n10 = amount // 10
+amount %= 10
+n5 = amount // 5
+amount %= 5
+n2 = amount // 2
+amount %= 2
+n1 = amount // 1
+amount %= 1
+print(n500, n200, n100, n50, n20, n10, n5, n2, n1)
